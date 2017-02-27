@@ -14,7 +14,6 @@ class ViewController: UIViewController{
     var times: [String] = ["9:00", "10:00", "11:00", "12:00", "13:00", "14:00","15:00", "16:00", "17:00", "18:00", "19:00", "20:00"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         //Make PickerView Horizontally Scroll and View
         picker.transform = CGAffineTransform(rotationAngle: 90 * (.pi/180))
         //Picker View Contraints
